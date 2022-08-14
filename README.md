@@ -1,4 +1,6 @@
-# Employ Server
-## Server for the employment application
-this a flask based back end service for a flutter application.
-The server is hosted on heroku
+# Alogrithms in Python
+
+A repository for solving algoritm problems using python. 
+## Folder Structure
+- `challenges` : this folder contains solved problems from competitions
+- `problems` : this folder contains random problems from interviews and a bunch of other sources 
