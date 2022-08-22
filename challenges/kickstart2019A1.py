@@ -45,12 +45,22 @@ In Sample Case #3, P = N, so every student will be on your team. You have to spe
 '''
 
 
+from xmlrpc.client import MAXINT
+
+
 def solution(n: int, p: int, s: list) -> int:
     '''
         Solution for the input: return integer
     '''
-    print(s)
-    return n
+    min_count = MAXINT
+    for i in range(n-p+1):
+        max_value = max(s[i:])
+        sum_list = sum(s[i:])
+        current_count = max_value*p - sum_list
+        if current_count < min_count:
+            min_count = current_count
+    
+    return min_count
 
 
 def filterInput(input: str):
