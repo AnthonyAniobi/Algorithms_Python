@@ -5,9 +5,7 @@ def towerOfHanoi(num:int)->None:
 
 def moves(num:int, source:str, auxilliary:str, destination:str):
     '''moves for the tower of hanoi problem'''
-    if num == 1:
-        print(f'move tile {num} from {source} to {destination}')
-    else:
+    if num:
         moves(num-1, source, destination, auxilliary)
         print(f'move tile {num} from {source} to {destination}')
         moves(num-1, auxilliary, source, destination)
