@@ -7,4 +7,5 @@ A repository for solving algoritm problems using python.
 
 ## Sources
 - `Datastructure and Algorithmic thinking with python` by **Narasimha karumanchi**
-- `Datastructures and Algorithm in Python` by **Michael T.Goodrich, Roberto Tamassia, Michael H. Goldwasser **
+- `Datastructures and Algorithm in Python` by **Michael T.Goodrich, Roberto Tamassia, Michael H. Goldwasser**
+-  `Cracking the Coding Interview` by **Gayle Laakmann Macdowell**
